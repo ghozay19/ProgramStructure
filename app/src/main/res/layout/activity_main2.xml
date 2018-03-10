@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvKet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvNilai"
+            android:layout_centerInParent="true"
+            android:text="@string/tv_keterangan"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/tvNilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvGanGen"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_rectangle_edittext"
+            android:padding="8dp"
+            android:text="@string/nol"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/tvGanGen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_rectangle_edittext"
+            android:padding="8dp"
+            android:text="@string/tv_GanGen"
+            android:textColor="#80FFFFFF"
+            android:textColorHint="#80FFFFFF" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvGanGen"
+            android:text="@string/btn_Home" />
+
+
+    </RelativeLayout>
+</LinearLayout>

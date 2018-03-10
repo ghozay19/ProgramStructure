@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Struktur Program</string>
+    <string name="nilai1">Masukan Nilai 1</string>
+    <string name="nilai2">Masukan Nilai 2</string>
+    <string name="judul">Program Struktur</string>
+    <string name="btn_proses">Proses</string>
+    <string name="btn_clear">Clear</string>
+    <!--layout2-->
+    <string name="nol">0</string>
+    <string name="tv_GanGen">Bilangan tersebut adalah</string>
+    <string name="tv_keterangan">Keterangan</string>
+    <string name="btn_Home">Home</string>
+
+
+
+
+</resources>
